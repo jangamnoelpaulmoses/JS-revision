@@ -11,3 +11,11 @@ console.log(value)
 
 // 1 -> true; o -> false
 // ""-> false; "sdgvsd" -> true
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+console.log()

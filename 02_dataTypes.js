@@ -11,6 +11,9 @@ let noel="pauk"
 // null --> stand alone value [respresentation is empty value or something but not just assigned and left like undefined]
 // undefined
 // symbol
-
+let paul = null;
+let moses;
 console.log(typeof noel)
 console.log(typeof null)
+console.log(typeof paul)
+console.log(typeof moses)

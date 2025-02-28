@@ -59,6 +59,51 @@ a.car = "noel"
 
 console.log(a);
 
+//a.freeze() is a function to freeze object values, cannot change
+// Functions in js can be treated as variables
+
+
+a.greeting = function ()
+{
+    console.log("hello world");
+    
+}
+
+
+//console.log(a.greeting); // undefined
+console.log(a.greeting());
 
 
 
+
+// ✅ "hello world" is printed because greeting() runs.
+// ❌ undefined is printed because console.log() logs the return value of greeting(), which is undefined.
+
+// const a = {
+//     name: "noel",
+//     age: 23
+// };
+
+// Object.freeze(a);
+
+// a.city = "Phoenix"; // ❌ Cannot add new properties
+// a.age = 30; // ❌ Cannot modify existing properties
+// delete a.name; // ❌ Cannot delete properties
+
+// console.log(a); // { name: 'noel', age: 23 }
+
+
+
+
+// const obj = {
+//     name: "Noel",
+//     details: {
+//         city: "Phoenix"
+//     }
+// };
+
+// Object.freeze(obj);
+
+// obj.details.city = "New York"; // ✅ Allowed (because `freeze()` is shallow)
+
+// console.log(obj.details.city); // "New York" (changed!)

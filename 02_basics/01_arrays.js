@@ -24,11 +24,11 @@
 const arr = [1,2,3,5,67,88]
 
 const sliceArr = arr.slice(1,3) 
-console.log(sliceArr);// 2,3  ----> index 1 and 3 not included
+console.log(sliceArr);// 2,3  ----> index 1 included and 3 not included
 console.log(arr); //[ 1, 2, 3, 5, 67, 88 ] original array not changed
 
 const spliceArr = arr.splice(1,3)
-console.log(spliceArr);// 2,3,5  ----> index 1 not included and 3 is included
+console.log(spliceArr);// 2,3,5  ----> index 1 is included and 3 is included
 console.log(arr); // cuts the original array as well
 
 const arr2= [1,2,34,5,67];

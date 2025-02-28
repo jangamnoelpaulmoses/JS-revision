@@ -28,8 +28,8 @@
  */
 const id= Symbol('123');
 const id2= Symbol('123'); // type is symbol
-console.log(id);
-console.log(id2);
+console.log(id); 
+console.log(id2); 
 
 let a = [12, 4,34, 3543,34, 34,35]
 

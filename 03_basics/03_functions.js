@@ -1,8 +1,8 @@
-const user = {
-username : "noel",
-age : 25
+// const user = {
+// username : "noel",
+// age : 25
 
-}
+// }
 
 
 function handleObj( anyobject)

@@ -21,7 +21,6 @@ handleObj({
 
 
     // WITH ARRAYS
-sdfvs
 const arr = [1,2,3,3,4]
 
 function getArr(someArr)

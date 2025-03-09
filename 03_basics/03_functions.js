@@ -20,7 +20,7 @@ handleObj({
     }) //handleObj(user) //This is the username, noel  and this is the age,  25
 
 
-    // WITH ARRAYS
+    // WITH ARRAYS 
 const arr = [1,2,3,3,4]
 
 function getArr(someArr)

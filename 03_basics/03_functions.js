@@ -13,6 +13,7 @@ function handleObj( anyobject)
 // handleObj(user) //This is the username, noel  and this is the age,  25
 // or
 
+
 handleObj({
     username : "noel",
     age : 25

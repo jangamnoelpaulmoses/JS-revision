@@ -107,3 +107,6 @@ console.log(a.greeting());
 // obj.details.city = "New York"; // ✅ Allowed (because `freeze()` is shallow)
 
 // console.log(obj.details.city); // "New York" (changed!)
+
+
+// to freeze objects of all levels, you should deep freeze by recursively itereating
